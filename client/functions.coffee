@@ -8,7 +8,7 @@ Cloudinary =
 	_expiring_urls:{}
 	xhr:null
 	config: (options) ->
-	  cl.config options
+		cl.config options
 	url: (public_id,options) ->
 		if public_id and not _.isEmpty public_id
 			cl.url(public_id,options)

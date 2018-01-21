@@ -1,8 +1,8 @@
 Package.describe({
-	name:"lmachens:cloudinary",
+	name:"flean:cloudinary",
 	summary: "Upload files to Cloudinary",
 	version:"5.0.4_4",
-	git:"https://github.com/lmachens/cloudinary"
+	git:"https://github.com/flean/cloudinary"
 });
 
 Npm.depends({
@@ -14,7 +14,7 @@ Package.on_use(function (api){
 	api.versionsFrom('METEOR@1.0');
 
 	// Core Packages
-	api.use(["meteor-base@1.0.1","coffeescript","mongo","underscore"], ["client", "server"]);
+	api.use(["meteor-base@1.0.1","coffeescript@2.0.3_4","mongo","underscore"], ["client", "server"]);
 	api.use(["check","ecmascript@0.9.0","random","reactive-var"], ["client","server"]);
 
 	// External Packages
